@@ -24,7 +24,7 @@ MonoBehaviour:
     AuthMode: 0
     EnableLobbyStatistics: 0
     NetworkLogging: 1
-  DevRegion: 
+  DevRegion: sa
   PunLogging: 0
   EnableSupportLogger: 0
   RunInBackground: 1
@@ -35,6 +35,11 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
+  - Shoot
+  - UpdateHealt
+  - TakeDamageNetwork
+  - DestroyBulletNetwork
+  - NickNameNetwork
   DisableAutoOpenWizard: 1
   ShowSettings: 0
-  DevRegionSetOnce: 0
+  DevRegionSetOnce: 1
